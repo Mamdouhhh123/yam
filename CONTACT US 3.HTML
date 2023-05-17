@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact US</title>
+</head>
+
+<style>
+.Header{
+  background-color: lightcoral;
+}
+.navbar{
+  overflow: hidden;
+    background-color: darkblue;
+    text-align: center;
+}
+.navbar a{
+  float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    padding-left: 80px;
+}
+/* Change color on hover */
+.navbar a:hover {
+    background-color: lightblue;
+    color: black;
+}
+body{
+  background-image: url(gg.jpg);
+}
+h1{color:black, 0);font-size: 40px;text-align: center;}
+body{background-color:	rgb(236, 239, 248);}
+h3{color:black;font-size: 24px;text-align: center;}
+    form{color: black;font-size: 20px;text-align: center;}
+    #img{
+    position: fixed;
+    }
+    input[type=text], select {
+      width: 30%;
+      padding: 5px 20px;
+    }
+    .footer{
+      background-color: lightcoral;
+      text-align: center;
+
+    }
+</style>
+
+<body>
+  <div class="Header">
+    <img id="img" src="Yam.jpg" alt="YAM LOGO" height="120" width="120">
+    <br><h1>Contact Us</h1>
+
+    <hr>
+    </div>
+
+
+<hr>
+<!-- navigation bar div-->
+<div class="navbar">
+  <a href="HOME PAGE 3.HTML">Home</a>
+  <a href="PRODUCT CATAOG.html"> Product Catalog </a>
+        <a href="SHOPPING CART.html">Shopping Cart </a>
+  <a href="PAYMENT FORM.html">Payment </a>
+            <a href="SIGN-IN3.HTML"> Sign In </a>
+              <a href="SIGN-UP3.HTML"> Sign Up </a>
+              <a href="CONTACT US 3.HTML"> Contact Us </a>
+                          <a href="ABOUT US 3.html"> About Us</a>
+  </div>
+<h3> <u>Questions not answered yet? We are here to help!<br> please fill in the form below </u></h3>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "#c3c3c3");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "#c3c3c3");
+  });
+});
+</script>
+<form>
+First Name<br><br><input type="text"><br><br>
+Last Name<br><br><input type="text"><br><br>
+Email<br><br><input type="text"><br><br>
+Phone Number<br><br><input type="text"><br><br>
+Type Your Message<br><br><textarea name="message" rows="10" cols="50">Leave Your Message Here Please</textarea><br><br><br>
+<input type="submit"value="Confirm"><input type="reset">
+</form>
+
+<!-- footer div "contact us and about us"-->
+
+<div class="footer">
+  <p class="hoho">
+    <br>
+              <b>  YAM Courses</b><br><br>
+    <p class="hoho">  <b>Our story:</b><br>
+     YAM was founded by Abdulrahman Ashraf and Youssef Hossny in 2020 with a vision of providing life-transforming learning experiences to learners around the world. Today,YAM is a global online learning platform that offers anyone, anywhere access to online courses and degrees from leading universities and companies<br>  YAM recieved B corp certfication in FEB 2021,which means that we have a legal duty not only to our shareholders , but to also make a positive impact on society more broadly, as we continue our efforts to reduce barriers to world-class education for all.<br><br>
+
+
+</div>
+
+</body>
+
+</html>

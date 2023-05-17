@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sign Up</title>
+</head>
+
+<style>
+.Header{
+  background-color: lightcoral;
+}
+.navbar{
+  overflow: hidden;
+    background-color: darkblue;
+    text-align: center;
+}
+.navbar a{
+  float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    padding-left: 80px;
+}
+/* Change color on hover */
+.navbar a:hover {
+    background-color: lightcoral;
+    color: black;
+}
+body{
+  background-image: url(gg.jpg);
+}
+
+h1{color:black;font-size: 40px;text-align: center;}
+body{background-color:	rgb(236, 239, 248);}
+form{color: black;font-size: 20px;text-align: center;}
+#img{
+position: fixed;
+}
+
+input[type=text], select {
+  width: 30%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 30%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.footer{
+  background-color: lightcoral;
+  text-align: center;
+
+}
+#YES{
+color: black;
+font-size: 30px;}
+</style>
+
+<body>
+  <div class="Header">
+    <img id="img" src="Yam.jpg" alt="YAM LOGO" height="120" width="120">
+    <br>
+    <h1>Sign-Up</h1>
+    <hr>
+    </div>
+
+
+<hr>
+<!-- navigation bar div-->
+<div class="navbar">
+  <a href="HOME PAGE 3.HTML">Home</a>
+  <a href="PRODUCT CATAOG.html"> Product Catalog </a>
+        <a href="SHOPPING CART.html">Shopping Cart </a>
+  <a href="PAYMENT FORM.html">Payment </a>
+            <a href="SIGN-IN3.HTML"> Sign In </a>
+              <a href="SIGN-UP3.HTML"> Sign Up </a>
+              <a href="CONTACT US 3.HTML"> Contact Us </a>
+                          <a href="ABOUT US 3.html"> About Us</a>
+  </div>
+   <br>
+<br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("input").focus(function(){
+    $(this).css("background-color", "#c3c3c3");
+  });
+  $("input").blur(function(){
+    $(this).css("background-color", "#c3c3c3");
+  });
+});
+</script>
+    <form> <b>
+    First Name<br> <br><input type="text"><br><br>
+        Last Name<br><br><input type="text"><br><br>
+        Phone Number<br><br><input type="text"><br><br>
+        Date Of Birth<br><br><input type="date"><br><br>
+      <br>  Gender<br><br><input type="radio"name="gender" value="1" checked> Male<br>
+  <input type="radio" name="gender" value="2"> Female<br><br>
+        Email<br><br><input type="text"><br>
+        Password<br><br><input type="password"><br>
+        Confirm Password<br><br><input type="password"><br><br><hr>
+        <input type="submit"value="Confirm"><br><br>
+
+    </form>
+
+    <!-- footer div "contact us and about us"-->
+
+    <div class="footer">
+      <p class="hoho">
+        <br>
+                  <b>  YAM courses</b><br><br>
+        <p class="hoho">  <b>Our story:</b><br>
+           YAM was founded by Abdulrahman Ashraf and Youssef Hossny in 2020 with a vision of providing life-transforming learning experiences to learners around the world. Today,YAM is a global online learning platform that offers anyone, anywhere access to online courses and degrees from leading universities and companies<br>  YAM recieved B corp certfication in FEB 2021,which means that we have a legal duty not only to our shareholders , but to also make a positive impact on society more broadly, as we continue our efforts to reduce barriers to world-class education for all.<br><br>
+
+    <a href="CONTACT US 3.HTML"  id="YES"> Contact Us</a>
+
+    </div>
+
+
+</body>
+
+</html>
